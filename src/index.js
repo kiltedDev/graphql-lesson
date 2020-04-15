@@ -29,7 +29,10 @@ const client = new ApolloClient({
 
 client.writeData({
   data: {
-    cartHidden: true
+    cartHidden: true,
+    cartItems: [],
+    itemCount: 0,
+    cartTotal: 0
   }
 })
 
